@@ -20,7 +20,7 @@ const init = env => {
   if (C.done) return C;
   const m = {
     I: ['ID', '123456'],
-    U: ['UUID', '5aba5b77-48eb-4ae2-b60d-5bfee7ac169e'],
+    U: ['UUID', '7657348b-abfb-47a0-959d-821032460cd1'],
     P: ['IP', ['1.1.1.1']],
     T: ['TXT', []],
     R: ['PROXYIP', 'sjc.o00o.ooo:443'],
