@@ -1,5 +1,5 @@
 import{connect}from'cloudflare:sockets'
-const C={sub:'222222',uuid:'36d33e1d-d02c-447f-9472-99cff13b79d2',fallback:'sjc.o00o.ooo',hdrs:{'cache-control':'public,max-age=14400','content-type':'text/plain'}},
+const C={sub:'222222',uuid:'7657348b-abfb-47a0-959d-821032460cd1',fallback:'sjc.o00o.ooo',hdrs:{'cache-control':'public,max-age=14400','content-type':'text/plain'}},
 uuidBytes=new Uint8Array(16),decoder=new TextDecoder(),bufferPool=[],urlCache=Object.create(null)
 for(let i=0,hex=C.uuid.replace(/-/g,'');i<32;i+=2)uuidBytes[i>>1]=parseInt(hex.substr(i,2),16)
 let ERR4,ERR5,redirect,nodeList=['www.visa.cn:443'],stmt,cacheSize=0
